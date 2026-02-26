@@ -1,12 +1,13 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
+import { Login } from "../pages";
 
 const Route = () => {
     const Stack = createStackNavigator();
 
     return (
         <Stack.Navigator screenOptions={{ headerShown: false }}>
-            <Stack.Screen name="login" component={} />
+            <Stack.Screen name="login" component={Login} />
         </Stack.Navigator>
     );
 };
